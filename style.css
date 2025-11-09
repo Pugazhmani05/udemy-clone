@@ -12,6 +12,10 @@
     border-bottom: solid black 1px;
     gap: 10px;
     align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 1;
 }
 
 body {
@@ -35,6 +39,7 @@ body {
 
 .navebar__s2 input:focus {
     outline: none;
+    background-color: transparent;
 }
 
 .navebar img {
@@ -48,8 +53,25 @@ body {
 .navebar__s3 {
     display: flex;
     gap: 10px;
+    position: relative;
+    cursor: pointer;
 }
 
+.learn__fouse {
+    border: solid black 1px;
+    position: absolute;
+    margin: 10px;
+    top: 20px;
+    left: 0px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    display: none;
+    z-index: 1;
+}
+.learn:hover .learn__fouse{
+    display: block;
+}
 .navebar__s3 img {
     width: 20px;
     height: 20px;
@@ -60,7 +82,6 @@ body {
     padding: 7px;
     justify-content: space-between;
     border-bottom: solid black 1px;
-    padding: 10px;
     margin: 10px;
 }
 
@@ -73,6 +94,20 @@ body {
 
 .pic img {
     width: 100%;
+}
+
+.pic {
+    position: relative;
+}
+
+.offer {
+    border: solid black 1px;
+    background-color: aliceblue;
+    color: black;
+    padding: 10px;
+    margin: 100px;
+    position: absolute;
+    top: 0px;
 }
 
 .recommended {
