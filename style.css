@@ -83,8 +83,15 @@ body {
     justify-content: space-between;
     border-bottom: solid black 1px;
     margin: 10px;
+    cursor: pointer;
 }
-
+.coatagries p:hover{
+    transition: 1s;
+    background-color: aliceblue;
+    color:darkmagenta;
+    border: solid 1px;
+    
+}
 .coatagries p {
     background-color: blueviolet;
     color: aliceblue;
@@ -108,8 +115,19 @@ body {
     margin: 100px;
     position: absolute;
     top: 0px;
+    animation-name: zoom;
+    animation-duration: 3s;
 }
-
+@keyframes zoom{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
 .recommended {
     padding: 10px;
     margin: 10px;
