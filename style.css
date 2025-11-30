@@ -76,6 +76,9 @@ body {
     width: 20px;
     height: 20px;
 }
+.navebar__s4{
+    display: none;
+}
 
 .coatagries {
     display: flex;
@@ -105,6 +108,7 @@ body {
 
 .pic {
     position: relative;
+
 }
 
 .offer {
@@ -112,7 +116,7 @@ body {
     background-color: aliceblue;
     color: black;
     padding: 10px;
-    margin: 100px;
+    margin: 50px;margin-left: 20px;
     position: absolute;
     top: 0px;
     animation-name: zoom;
@@ -128,16 +132,19 @@ body {
         opacity: 1;
     }
 }
-.recommended {
-    padding: 10px;
-    margin: 10px;
+.card{
+    flex-grow: 1;
+  flex-basis: 25%;
 }
-
-.recommended__container {
-    padding: 10px;
-    display: flex;
+.recommended{
+       padding: 10px;   
     text-align: center;
-    justify-content: space-between;
+}
+.recommended__container {
+  display: flex;
+      justify-content: space-between;
+
+
 }
 
 .recommended__container img {
@@ -204,3 +211,22 @@ body {
     padding: 10px;
     justify-content: space-between;
 }
+@media screen and (max-width:800px) {
+    body{
+   font-size:10px ;
+    }
+}
+ @media screen and (max-width:700px) {
+   .recommended__container{
+flex-basis: 20%;
+    }
+    .coatagries{
+        display: none;
+    }
+    .navebar__s2,.navebar__s3{
+        display: none;
+    }
+    .navebar__s4{
+        display: block;
+    }
+ }
