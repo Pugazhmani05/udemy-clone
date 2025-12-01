@@ -214,6 +214,8 @@ body {
 @media screen and (max-width:800px) {
     body{
    font-size:10px ;
+     display: flex;
+ justify-content: space-between;
     }
 }
  @media screen and (max-width:500px) {
