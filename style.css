@@ -218,7 +218,7 @@ body {
 }
  @media screen and (max-width:500px) {
    .recommended__container{
-flex-basis: 20%;
+flex-basis: 10%;
     }
     .coatagries{
         display: none;
