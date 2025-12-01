@@ -220,7 +220,7 @@ body {
  @media screen and (max-width:600px) {
    .recommended__container{
 flex-basis: 20%;
-gap: 10px;
+margin: 10px;
     }
     .coatagries{
         display: none;
