@@ -218,7 +218,7 @@ body {
    font-size:10px ;
     }
 }
- @media screen and (max-width:700px) {
+ @media screen and (max-width:600px) {
    .card{
 flex-basis: 40%;
     }
@@ -230,8 +230,5 @@ flex-basis: 40%;
     }
     .navebar__s4{
         display: block;
-    }
-    .card{
-        width:50% ;
     }
  }
