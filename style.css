@@ -214,13 +214,12 @@ body {
 @media screen and (max-width:800px) {
     body{
    font-size:10px ;
-     display: flex;
- justify-content: space-between;
     }
 }
  @media screen and (max-width:500px) {
    .recommended__container{
 flex-basis: 10%;
+gap: -5px;
     }
     .coatagries{
         display: none;
@@ -230,5 +229,8 @@ flex-basis: 10%;
     }
     .navebar__s4{
         display: block;
+    }
+    .card{
+        width:50% ;
     }
  }
