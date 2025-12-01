@@ -142,7 +142,7 @@ body {
 }
 .recommended__container {
   display: flex;
-      justify-content: space-between;
+ justify-content: space-between;
 
 
 }
@@ -219,6 +219,7 @@ body {
  @media screen and (max-width:500px) {
    .recommended__container{
 flex-basis: 10%;
+width:20px ;
     }
     .coatagries{
         display: none;
