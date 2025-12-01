@@ -148,21 +148,21 @@ body {
 }
 
 .recommended__container img {
-    width: 70%;
-    height: 60%;
+    width: 200px;
+    height: 200px;
 }
 
 .Topic {
     padding: 10px;
     margin: 10px;
-    width: 100%;
+    text-align: center;
 }
 
 .Topic__container {
     display: flex;
     padding: 10px;
     gap: 10px;
-
+    width: 100%;
 }
 
 .Topic__container p {
@@ -186,8 +186,8 @@ body {
 }
 
 .popular__container img {
-    width: 70%;
-    height: 60%;
+    width: 200px;
+    height: 200px;
 }
 
 .foolter {
