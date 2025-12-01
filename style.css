@@ -148,13 +148,14 @@ body {
 }
 
 .recommended__container img {
-    width: 200px;
-    height: 200px;
+    width: 70%;
+    height: 60%;
 }
 
 .Topic {
     padding: 10px;
     margin: 10px;
+    width: 100%;
 }
 
 .Topic__container {
@@ -185,8 +186,8 @@ body {
 }
 
 .popular__container img {
-    width: 200px;
-    height: 200px;
+    width: 70%;
+    height: 60%;
 }
 
 .foolter {
@@ -216,10 +217,9 @@ body {
    font-size:10px ;
     }
 }
- @media screen and (max-width:500px) {
+ @media screen and (max-width:600px) {
    .recommended__container{
-flex-basis: 10%;
-gap: -5px;
+flex-basis: 20%;
     }
     .coatagries{
         display: none;
